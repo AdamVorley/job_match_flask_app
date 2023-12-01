@@ -3,9 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>Results</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
         <p>Based on the skills selected, the following role may be a good match:</p>
         <h2>{{result}}</h2>
+        <form action="#" method="post">
+            <input class="button" type="submit" value="Start again">
+        </form>
     </body>
 </html>

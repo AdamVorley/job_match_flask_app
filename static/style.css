@@ -1,0 +1,4 @@
+html { font-family: sans-serif; background: #faf9f9; padding: 1rem; }
+.button{font-family: sans-serif; background: rgb(87, 87, 231); padding: 1rem; color: #f9f9fa; border-radius: 10px;}
+.button:hover{font-family: sans-serif; background: rgb(231, 87, 87); padding: 1rem; color: #f9f9fa; border-radius: 10px;}
+.error{color: rgb(224, 8, 8);}
